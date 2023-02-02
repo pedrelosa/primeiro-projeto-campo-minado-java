@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85abbfb2-dd66-46b6-b5cf-6b7b2e690d9d" name="Changes" comment="-feat atualizações do dia 01/02/23">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiro-projeto-campo-minado-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto-campo-minado-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/excecao/ExplosaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/excecao/ExplosaoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/modelo/Campo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/Aplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/modelo/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testes/CampoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testes/CampoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/visao/TabuleiroConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pedrelosa/campoMinado/visao/TabuleiroConsole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +180,7 @@
       <workItem from="1675312413108" duration="72000" />
       <workItem from="1675365677565" duration="2576000" />
       <workItem from="1675374456769" duration="234000" />
-      <workItem from="1675374702190" duration="359000" />
+      <workItem from="1675374702190" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="-feat atualizações do dia 31/01/23">
       <created>1675199263230</created>

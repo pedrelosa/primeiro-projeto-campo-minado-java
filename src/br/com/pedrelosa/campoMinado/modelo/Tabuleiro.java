@@ -21,6 +21,10 @@ public class Tabuleiro {
 		
 		gerarCampos();
 		associarVizinhos();
+		
+		
+		
+		//sortearMinas(0, 0);
 	}
 	
 	

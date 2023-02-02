@@ -2,6 +2,7 @@
 package br.com.pedrelosa.campoMinado.visao;
 
 
+import br.com.pedrelosa.campoMinado.Aplicacao;
 import br.com.pedrelosa.campoMinado.excecao.ExplosaoException;
 import br.com.pedrelosa.campoMinado.excecao.SairException;
 import br.com.pedrelosa.campoMinado.imports.EntradaESaidaGrafico;
@@ -29,6 +30,7 @@ public class TabuleiroConsole {
 				cicloDoJogo();
 				
 				String resposta = EntradaESaidaGrafico.converssaoString("Outra partida? (S/n) ", new String[]{"S", "s", "n", "N"});
+				Aplicacao.vez = 0;
 				
 				if ("n".equalsIgnoreCase(resposta)) {
 					continuar = false;
@@ -60,16 +62,24 @@ public class TabuleiroConsole {
 				String opcaoEscolhida = EntradaESaidaGrafico.converssaoString(this.tabuleiro.toStringSelecionado(linha, coluna) +
 						"\nQual operação deseja fazer:\n"+
 						"Abrir - 1\n"+
-						"Marcar ou desmarcar - 2\n",
-						"1", "2");
+						"Marcar ou desmarcar - 2\n"+
+						"Sair - 3\n",
+						"1", "2", "3");
 				
 				
 				if ("1".equals(opcaoEscolhida)) {
-					this.tabuleiro.abrir(linha, coluna);
-					continue;
-				}
-				if ("2".equals(opcaoEscolhida)) {
+					
+					if (Aplicacao.vez == 0){
+						this.tabuleiro.primeiroAbrir(linha, coluna);
+						Aplicacao.vez++;
+					}else{
+						this.tabuleiro.abrir(linha, coluna);
+					}
+				}else if ("2".equals(opcaoEscolhida)) {
 					this.tabuleiro.alternarMarcacao(linha, coluna);
+				} else if ("3".equals(opcaoEscolhida)) {
+					JOptionPane.showMessageDialog(null, "Tchau!!");
+					System.exit(0);
 				}
 				
 			}

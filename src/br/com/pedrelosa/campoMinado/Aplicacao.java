@@ -9,6 +9,8 @@
 
  public class Aplicacao {
 
+     public static int vez = 0;
+     
    public static void main(String[] args) {
      Tabuleiro tabuleiro = new Tabuleiro(3, 3, 2);
      
