@@ -53,7 +53,7 @@ public class Campo {
 	}
 	
 	
-	public boolean abrir() {
+	public void abrir() {
 		if (! this.aberto && ! this.marcado) {
 			this.aberto = true;
 			
@@ -67,9 +67,7 @@ public class Campo {
 				
 			}
 			
-			return true;
 		}
-		return false;
 	}
 	
 	
@@ -131,7 +129,7 @@ public class Campo {
 		if (isAberto() && minasNaVizinhanca() > 0L)
 			return Long.toString(minasNaVizinhanca());
 		if (isAberto()) {
-			return " ";
+			return "  ";
 		}
 		return "?";
 	}
